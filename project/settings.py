@@ -57,9 +57,10 @@ INSTALLED_APPS = [
     # 3rd party
     "rest_framework",
     "corsheaders",
+    'whitenoise',
     # local
     "accounts",
-    "cookie_stand",
+    "cookie_stands",
 ]
 
 MIDDLEWARE = [
